@@ -4,3 +4,4 @@ for i in range(n):
  erno, city = input('enter enrolment number and city ')
  D2.update({erno: city})
 print(D2)
+
