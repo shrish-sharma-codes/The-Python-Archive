@@ -4,3 +4,4 @@ for i in range(n):
     erno, name = input('Enter enrolment number and name')
     D1.update([erno:name])
 print(D1)    
+#Chalo yeh ho gayi 4th
