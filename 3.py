@@ -1,7 +1,12 @@
 D2 = {}
 n = int(input('Enter no of students '))
 for i in range(n):
- erno, city = input('enter enrolment number and city Atre betichod')
+ erno, city = input('Enter enrolment number and City ')
+ D2.update({erno: city})
+print(D2)
+D2 = {}
+n = int(input('Enter no of students '))
+for i in range(n):
  D2.update({erno: city})
 print(D2)
 D2 = {}
