@@ -2,19 +2,35 @@
 L = []
 
 # Sorting List function
-def sorting_list(L):
+def sorting_list_num(L):
     L.sort()
     print(L)
 
-# Taking Size
-n = int(input('Enter the Size:'))
+def sorting_list_alpha(L):
+    x = sorted(L)
+    print(x)
+    
+# Type
+t = int(input("Type 1 for Numerical List and 2 for Alphabetical list:"))
 
-# Inserting Elements
-i = 0
-while(i != n):
-    e = int(input('Enter Element ' + str(i) + ":"))
-    L.append(e)
-    i = i + 1    
+if t == 1:
+    # Taking Size
+    n = int(input('Enter the Size:'))
 
-sorting_list(L)
+    # Inserting Elements
+    i = 0
+    while(i != n):
+        e = int(input('Enter Element ' + str(i) + ":"))
+        L.append(e)
+        i = i + 1    
+
+    sorting_list_num(L)
+else:
+    print("Enter elements and press x to stop:")
+    ch = 'a'
+    while(ch != 'x'):
+        ch = input("Enter Element:")
+        L.append(ch)
+    sorting_list_alpha(L)
+    
     
