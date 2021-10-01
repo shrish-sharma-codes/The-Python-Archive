@@ -1,4 +1,4 @@
-food = ["chocolate", "chicken", "corn", "sandwich", "soup", "potatoes", "beef", "lox", "lemonade"]
+food = ["beans", "gazar-halwa", "roti", "sabzi", "achaar", "chhole", "bhature", "lox", "lemonade"]
 fifth = []
 for x in food:
 try:
