@@ -1,9 +1,7 @@
-# Python program to check if the number is an Armstrong number or not
+# Python program to check if the number is an Armstrong number or not which takes input from the user
+num = int(input("Enter a number "))
 
-# take input from the user
-num = int(input("Enter a number: "))
-
-# initialize sum
+# initialize the sum
 sum = 0
 
 # find the sum of the cube of each digit
